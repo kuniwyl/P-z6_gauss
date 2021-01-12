@@ -50,7 +50,6 @@ int eliminate(Matrix *mat, Matrix *b)
 			b->data[i][0] = b->data[ya][0];
 			b->data[ya][0] = z;
 
-			printf("%f\n",z);
 
 			double tym = (-1) * mat->data[j][i] / mat->data[i][i];	
 			for( k=i; k<r; k++)
